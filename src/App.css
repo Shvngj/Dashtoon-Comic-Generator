@@ -1,20 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Comic Neue' !important;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-section {
+  /* background-color: #343434; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +20,56 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.comicBoard {
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.panel {
+  background-color: #fff;
+  border: solid 3px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  display: inline-block;
+  flex: 1 1;
+  margin: 0.5vmin;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+.comicTextInput{
+  margin: 50px 0px;
+  height: 400px;
+  width: 100vw;
+  background-image: url('../public/comic_thumbnail.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  background-color:#fff;
+  border:solid 2px #000;
+  margin:0;
+  padding:3px 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.bottom-right {
+  bottom:-2px;
+  position:absolute;
+  right:-6px;
+  transform:skew(-15deg);
+}
+
+.top-left {
+  left:-6px;
+  position:absolute;
+  top:-2px;
+  transform:skew(-15deg);
 }
