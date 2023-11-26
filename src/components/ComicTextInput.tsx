@@ -12,7 +12,7 @@ type ComicTextInputType = {
 
 const ComicTextInput = ({handleGetComicImage, handlePanelChange, handleTextChange, text, panel, loading}: ComicTextInputType) => (
 	<div className='comicTextInput'>
-		<img src='./title.svg' alt='logo' style={{width: 'auto', height: '200px'}}/>
+		<img src='./title.svg' alt='logo' style={{width: 'auto', height: '10vh'}}/>
 		<Stack spacing={2} direction='row' justifyContent={'center'} alignItems={'center'}>
 			<Grid container spacing={{xs: 2, sm: 0}}>
 				<Grid item xs={12} sm={8}>

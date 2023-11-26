@@ -12,8 +12,8 @@ const ComicPanel = ({comicImage}: ComicPanelType) => (
 		</div>)
 		: (
 			<div className='panel' style={{backgroundImage: `url(${comicImage})`, backgroundSize: 'contain', width: 350, height: 350}}>
-				<p contentEditable className='text top-left' spellCheck='false'/>
-				<p contentEditable className='text bottom-right' spellCheck='false'/>
+				<p contentEditable className='text top-left' spellCheck='false'>Click here and type annotation...</p>
+				<p contentEditable className='text bottom-right' spellCheck='false'>or remove it (clear)... </p>
 			</div>
 		)
 	)
