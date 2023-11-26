@@ -12,5 +12,7 @@ Develop a simple web application that allows users to create and share a 10-pane
 - We can select the panel from the dropdown and the corresponding image would be inserted in that panel. The panel and their images are managed using state variables.
 - An individual can add Annotations using the Annotation field text box provided at the top-left and bottom-right corners of the panel. Similary, clearing the text in the Annotation field removes the Annotations.
 
+
 ### Deployment
 The web app is deployed on Vercel: [https://dashtoon-comic-generator-olive.vercel.app/](https://dashtoon-comic-generator-olive.vercel.app/)
+The website is compatible with all platforms including desktop and mobile.
