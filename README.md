@@ -14,5 +14,5 @@ Develop a simple web application that allows users to create and share a 10-pane
 
 
 ### Deployment
-The web app is deployed on Vercel: [https://dashtoon-comic-generator-olive.vercel.app/](https://dashtoon-comic-generator-olive.vercel.app/)
+The web app is deployed on Vercel: [https://dashtoon-comic-generator-olive.vercel.app/](https://dashtoon-comic-generator-olive.vercel.app/).
 The website is compatible with all platforms including desktop and mobile.
